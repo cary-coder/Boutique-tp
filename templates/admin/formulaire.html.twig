@@ -1,0 +1,11 @@
+{% extends 'layout.html.twig' %}
+{% block title %}
+	{{ parent() }}
+	-formulaire produit
+{%
+endblock %}
+
+{% block content %}
+	<h1>Formulaire produit</h1>
+
+	{{ form(formProduit) }}{% endblock content %}

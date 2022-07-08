@@ -1,0 +1,79 @@
+.img-home {
+  /* width: 100%; */
+  width: 30vh;
+  height: 75vh;
+}
+
+.div-img-home {
+  transition: 0.2s;
+}
+.div-img-home:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  margin: 0.625rem;
+  text-align: center;
+}
+.card-body {
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  font-size: 1.25rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 12.5rem !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 0.125rem solid #dee2e6;
+  border-radius: 1.563rem;
+}
+
+/* pour donner la même taille a toutes les images dans Homepage */
+.fit-image {
+  width: 100%;
+  object-fit: cover !important;
+  height: 12.5rem; /* only if you want fixed height */
+}
+
+
+ @media (min-width: 1025px) {
+ .h-custom {
+ height: 100vh !important;
+ }
+ }
+
+ .card-registration .select-input.form-control[readonly]:not([disabled]) {
+ font-size: 1rem;
+ line-height: 2.15;
+ padding-left: .75em;
+ padding-right: .75em;
+ }
+
+ .card-registration .select-arrow {
+ top: 13px;
+ }
+
+ .bg-grey {
+ background-color: #eae8e8;
+ }
+
+ @media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+ }
+
+ @media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+ }
