@@ -2,8 +2,10 @@
 
 namespace App\Entity;
 
-use App\Repository\CommandeDetailRepository;
+use App\Entity\Produit;
+use App\Entity\Commande;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\CommandeDetailRepository;
 
 #[ORM\Entity(repositoryClass: CommandeDetailRepository::class)]
 class CommandeDetail
